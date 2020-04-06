@@ -1,0 +1,23 @@
+{
+    "name": "demyanenkomaks/yii2-adminlte-bootstrap4",
+    "description": "mini item template adminlte for yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","adminlte","admin","theme","backend"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Demyanenko Maksim",
+            "email": "demyanenkomaks0@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "2.*",
+        "dmstr/yii2-adminlte-asset": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "demyanenkomaks\\adminlte\\": "src"
+        }
+    }
+}
